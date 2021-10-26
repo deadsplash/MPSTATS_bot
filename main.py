@@ -1,10 +1,7 @@
 import requests as r
 from datetime import datetime
 import telebot
-
-# tokens
-mpstats_api_token = ""
-telegram_bot_token = ""
+from auth_data import mpstats_api_token, telegram_bot_token
 
 cur_date = str(datetime.now())[0:10]
 
